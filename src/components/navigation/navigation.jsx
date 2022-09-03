@@ -1,31 +1,34 @@
 import React from "react"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
- import Header from "../header/header.jsx"
+import Header from "../header/header.jsx"
+import JsonData from "../../data/data.json";
+import { useState, useEffect } from "react";
+import Main from "../../screens/Main/main.jsx"
+
+import Booking from "../../screens/Booking/booking.jsx"
 
 
 const Navigation = () => {
+  const [landingPageData, setLandingPageData] = useState({});
+  useEffect(() => {
+    setLandingPageData(JsonData);
+  }, []);
   return (
     <>
-  
-      <Router>
-       <Header /> 
-        <Routes>
-        {/* <Route path="/" element={<Home/>} ></Route>
-           <Route exact path='/about'element={<About/>} /> 
-          <Route path="/buy" element={<PropertySale/>} ></Route>
-          <Route path="/rent" element={<Property/>} ></Route>
-          <Route path="/single" element={<SinglePropery/>} ></Route> */}
 
-          <Route
-            path="*"
-            element={
-              <div>
-                <h2>404 Page not found </h2>
-              </div>
-            }
-          />
+      <Router>
+        <Header />
+
+
+        <Routes>
+
+          <Route path="/" element={<Main />} ></Route>
+
+          <Route path="/booking" element={<Booking data={landingPageData.Cars} />} ></Route>
+
+
         </Routes>
-   
+
       </Router>
     </>
   )
