@@ -38,20 +38,20 @@ const Pricing = (props) => {
 						        <td class="price">
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">Rs</small> 10.99</span>
+							        		<span class="num"><small class="currency">Rs</small> 80.99</span>
 							        		<span class="per">/per hour</span>
 							        	</h3>
-							        	<span class="subheading">Rs3/hour fuel surcharges</span>
+							        	<span class="subheading">Rs30/hour fuel surcharges</span>
 						        	</div>
 						        </td>
 						        
 						        <td class="price">
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">Rs</small> 60.99</span>
+							        		<span class="num"><small class="currency">Rs</small> 300.80</span>
 							        		<span class="per">/per day</span>
 							        	</h3>
-							        	<span class="subheading">Rs3/hour fuel surcharges</span>
+							        	<span class="subheading">Rs30/hour fuel surcharges</span>
 						        </div>
 						        </td>
 
@@ -61,7 +61,7 @@ const Pricing = (props) => {
 							        		<span class="num"><small class="currency">Rs</small> 995.99</span>
 							        		<span class="per">/per month</span>
 							        	</h3>
-							        	<span class="subheading">Rs3/hour fuel surcharges</span>
+							        	<span class="subheading">Rs30/hour fuel surcharges</span>
 							        </div>
 						        </td>
 						      </tr>
@@ -79,20 +79,20 @@ const Pricing = (props) => {
 						        <td class="price">
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">Rs</small> 10.99</span>
+							        		<span class="num"><small class="currency">Rs</small> 80.99</span>
 							        		<span class="per">/per hour</span>
 							        	</h3>
-							        	<span class="subheading">Rs3/hour fuel surcharges</span>
+							        	<span class="subheading">Rs30/hour fuel surcharges</span>
 							        </div>
 						        </td>
 						        
 						        <td class="price">
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">Rs</small> 60.99</span>
+							        		<span class="num"><small class="currency">Rs</small> 300.80</span>
 							        		<span class="per">/per day</span>
 							        	</h3>
-							        	<span class="subheading">Rs3/hour fuel surcharges</span>
+							        	<span class="subheading">Rs30/hour fuel surcharges</span>
 							        </div>
 						        </td>
 
@@ -102,7 +102,7 @@ const Pricing = (props) => {
 							        		<span class="num"><small class="currency">Rs</small> 995.99</span>
 							        		<span class="per">/per month</span>
 							        	</h3>
-							        	<span class="subheading">Rs3/hour fuel surcharges</span>
+							        	<span class="subheading">Rs30/hour fuel surcharges</span>
 							        </div>
 						        </td>
 						      </tr>
@@ -120,20 +120,20 @@ const Pricing = (props) => {
 						        <td class="price">
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">Rs</small> 10.99</span>
+							        		<span class="num"><small class="currency">Rs</small> 80.99</span>
 							        		<span class="per">/per hour</span>
 							        	</h3>
-							        	<span class="subheading">Rs3/hour fuel surcharges</span>
+							        	<span class="subheading">Rs30/hour fuel surcharges</span>
 							        </div>
 						        </td>
 						        
 						        <td class="price">
 						        	<div class="price-rate">
 							        	<h3>
-							        		<span class="num"><small class="currency">Rs</small> 60.99</span>
+							        		<span class="num"><small class="currency">Rs</small> 300.80</span>
 							        		<span class="per">/per day</span>
 							        	</h3>
-							        	<span class="subheading">Rs3/hour fuel surcharges</span>
+							        	<span class="subheading">Rs30/hour fuel surcharges</span>
 							        </div>
 						        </td>
 
@@ -143,7 +143,7 @@ const Pricing = (props) => {
 							        		<span class="num"><small class="currency">Rs</small> 995.99</span>
 							        		<span class="per">/per month</span>
 							        	</h3>
-							        	<span class="subheading">Rs3/hour fuel surcharges</span>
+							        	<span class="subheading">Rs30/hour fuel surcharges</span>
 							        </div>
 						        </td>
 						      </tr>
