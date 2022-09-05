@@ -1,0 +1,155 @@
+{
+  "Header": {
+    "title": "Fast & Easy Way To Rent A Car",
+    "paragraph": " Book a self-drive car in any city you visit with the Bugendaitech  and feel at home wherever you go."
+  },
+  "About": {
+    "paragraph": "No more worries about petrol mileage, fuel costs, insurance, and car breakdowns! Bugendaitech rental has enabled driving convenience for travellers around the country and is fast expanding its reach to cities. The vehicles have all-India permits",
+    "Why": [
+      "Ahmedabad",
+      "Bangalore",
+      "Chandigarhr",
+      "Chennai"
+    ],
+    "Why2": [
+      "Delhi-NCR",
+      "Hyderabad",
+      "Jaipur",
+      "Kolkata"
+    ]
+  },
+  "Cars": [
+    {
+      "title": "Maruti Desire (Petrol)",
+      "type": "Manual",
+      "seat": "4",
+      "fuel":"petrol",
+      "img": "img/cars/car-2.jpg",
+      "price":"Rs 300/hr",
+      "mileage":"4000",
+      "Luggage":4
+    },
+    {
+      "title": "Maruti Desire (Diesel)",
+      "type": "Automatic",
+      "seat": "4",
+      "fuel":"petrol",
+      "img": "img/cars/car-3.jpg",
+      "price":"Rs 300/hr",
+      "mileage":"4000",
+      "Luggage":4
+    },
+    {
+      "title": "Mercedes Grand Sedan",
+      "type": "Automatic",
+      "seat": "6",
+      "fuel":"petrol",
+      "img": "img/cars/car-4.jpg",
+      "price":"Rs 800/hr",
+      "mileage":"4000",
+      "Luggage":4
+    },
+    {
+      "title": "Toyota Aygo",
+      "type": "Manual",
+      "seat": "4",
+      "fuel":"petrol",
+      "img": "img/cars/car-5.jpg",
+      "price":"Rs 400/hr",
+      "mileage":"4000",
+      "Luggage":4
+    },
+    {
+      "title": "Volkswagen Polo",
+      "type": "Manual",
+      "seat": "4",
+      "fuel":"petrol",
+      "img": "img/cars/car-6.jpg",
+      "price":"Rs 500/hr",
+      "mileage":"4000",
+      "Luggage":4
+    },
+    {
+      "title": "Seat Ibiza",
+      "type": "Manual",
+      "seat": "4",
+      "fuel":"petrol",
+      "img": "img/cars/car-7.jpg",
+      "price":"Rs 500/hr",
+      "mileage":"4000",
+      "Luggage":4
+    },
+    {
+      "title": "Nissan Juke",
+      "type": "Manual",
+      "seat": "4",
+      "fuel":"petrol",
+      "img": "img/cars/car-8.jpg",
+      "price":"Rs 500/hr",
+      "mileage":"4000",
+      "Luggage":4
+    },
+    {
+      "title": "Nissan ",
+      "type": "Manual",
+      "seat": "4",
+      "fuel":"petrol",
+      "img": "img/cars/car-10.jpg",
+      "price":"Rs 500/hr",
+      "mileage":"4000",
+      "Luggage":4
+    },
+    {
+      "title": "Wagaon ",
+      "type": "Manual",
+      "seat": "4",
+      "fuel":"petrol",
+      "img": "img/cars/car-12.jpg",
+      "price":"Rs 500/hr",
+      "mileage":"4000",
+      "Luggage":4
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-group",
+      "name": "Wedding Ceremony",
+      "text": "Enjoy Hassle free visit to your destination in comfortable rides.We provide all facilities in different type of rental cars."
+    },
+    {
+      "icon": "fa fa-taxi",
+      "name": "City Transfer",
+      "text": "Enjoy Hassle free visit to your destination in comfortable rides.We provide all facilities in different type of rental cars."
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "Airport Transfer",
+      "text": "Enjoy Hassle free visit to your destination in comfortable rides.We provide all facilities in different type of rental cars."
+    },
+    {
+      "icon": "fa fa-binoculars",
+      "name": "Whole City Tour",
+      "text": "Enjoy Hassle free visit to your destination in comfortable rides.We provide all facilities in different type of rental cars."
+    },
+    {
+      "icon": "fa fa-automobile",
+      "name": "Pick/Drop",
+      "text": "Enjoy Hassle free visit to your destination in comfortable rides.We provide all facilities in different type of rental cars."
+    },
+    {
+      "icon": "fa fa-suitcase",
+      "name": "Buisness Meetings",
+      "text": "Enjoy Hassle free visit to your destination in comfortable rides.We provide all facilities in different type of rental cars."
+    }
+  ],
+
+ 
+  "Contact": {
+    "address": "BugendaiTech Pvt Ltd, 107, Fortune Plaza, Pune, Maharashtra 411028 ",
+    "phone": "+1 (732)-344-0688",
+    "email": "info@bugendaitech.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  }
+}
