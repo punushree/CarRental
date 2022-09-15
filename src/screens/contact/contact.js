@@ -1,24 +1,25 @@
-import { useState } from 'react'
-
+import { useState } from 'react';
 
 const initialState = {
   name: '',
   email: '',
   message: '',
-}
-    const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState)
+};
+const Contact = ({ data }) => {
+  // const [{ name, email, message }, setState] = useState(initialState);
+  const [{ name, email, message }, setState] = useState(initialState);
 
   const handleChange = (e) => {
-    const { name, value } = e.target
-    setState((prevState) => ({ ...prevState, [name]: value }))
-  }
+    setState((prevState) => ({
+      ...prevState,
+      [e.target.name]: e.target.value,
+    }));
+  };
 
   const handleSubmit = (e) => {
-    e.preventDefault()
-    console.log(name, email, message)
-  
-  }
+    e.preventDefault();
+    console.log(name, email, message);
+  };
   return (
     <div>
       <div id='contact'>
@@ -89,7 +90,7 @@ const initialState = {
                 <span>
                   <i className='fa fa-map-marker'></i> Address
                 </span>
-                {props.data ? props.data.address : 'loading'}
+                {data ? data.address : 'loading'}
               </p>
             </div>
             <div className='contact-item'>
@@ -97,7 +98,7 @@ const initialState = {
                 <span>
                   <i className='fa fa-phone'></i> Phone
                 </span>{' '}
-                {props.data ? props.data.phone : 'loading'}
+                {data ? data.phone : 'loading'}
               </p>
             </div>
             <div className='contact-item'>
@@ -105,7 +106,7 @@ const initialState = {
                 <span>
                   <i className='fa fa-envelope-o'></i> Email
                 </span>{' '}
-                {props.data ? props.data.email : 'loading'}
+                {data ? data.email : 'loading'}
               </p>
             </div>
           </div>
@@ -114,17 +115,17 @@ const initialState = {
               <div className='social'>
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : '/'}>
+                    <a href={data ? data.facebook : '/'}>
                       <i className='fa fa-facebook'></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : '/'}>
+                    <a href={data ? data.twitter : '/'}>
                       <i className='fa fa-twitter'></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.youtube : '/'}>
+                    <a href={data ? data.youtube : '/'}>
                       <i className='fa fa-youtube'></i>
                     </a>
                   </li>
@@ -136,14 +137,10 @@ const initialState = {
       </div>
       <div id='footer'>
         <div className='container text-center'>
-          <p>
-            &copy; 2022 Bugendai Car rental. Design by Bugendaitech
-            
-          </p>
+          <p>&copy; 2022 Bugendai Car rental. Design by Bugendaitech</p>
         </div>
       </div>
     </div>
-  )
-}
-export default Contact
-
+  );
+};
+export default Contact;
